@@ -1,0 +1,755 @@
+#second-section {}
+
+#second-section .second-section-flex {
+    width: 1050px;
+    padding-bottom: 80px;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+
+}
+
+#second-section .second-section-flex .bag-pura {
+    padding: 35px 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 169px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    transition: all ease 0.3s;
+}
+
+#second-section .second-section-flex .bag-pura:hover {
+    background: #252B42;
+    color: var(--sada);
+}
+
+#second-section .second-section-flex .bag-pura:hover h5 {
+    color: var(--sada);
+}
+
+#second-section .second-section-flex .bag-pura:hover p {
+    color: var(--sada);
+}
+
+#second-section .second-section-flex .bag-pura:hover .twotag a {
+    color: gold;
+
+}
+
+#second-section .second-section-flex .bag-pura:hover .twotag {
+    background: white;
+
+}
+
+#second-section .second-section-flex .bag-pura:hover .twotag a img {
+    display: none;
+}
+
+#second-section .second-section-flex .bag-pura .bag-image {}
+
+#second-section .second-section-flex .bag-pura .bag-image img {}
+
+#second-section .second-section-flex .bag-pura h5 {
+
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--gray);
+    font-weight: 400;
+}
+
+#second-section .second-section-flex .bag-pura p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+#second-section .second-section-flex .bag-pura .twotag {
+    background: transparent;
+    border: 2px solid skyblue;
+    text-align: center;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 1000px;
+}
+
+#second-section .second-section-flex .bag-pura .twotag a {
+    color: var(--akashi);
+}
+
+
+/* ========================== SECOND-section end ============================== */
+
+
+/* ========================== third-section srt ============================== */
+
+#third-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#third-section .third-flex {
+    max-width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+#third-section .third-flex .third-image {}
+
+#third-section .third-flex .third-image img {}
+
+#third-section .third-flex .third-texts {
+    max-width: 511px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#third-section .third-flex .third-texts h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    color: #252B42;
+}
+
+#third-section .third-flex .third-texts p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.third-videoplayer {
+    display: flex;
+    gap: 120px;
+    align-items: center;
+}
+
+.video img {
+    cursor: pointer;
+}
+
+.video-texts {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 333px;
+}
+
+.video-texts .video-h1 {
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.video-texts .video-h1 h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+
+}
+
+.video-texts .video-h1 p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.logo-text {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 20px;
+}
+
+
+
+.headerrr {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.headerrr h5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+
+}
+
+.headerrr p {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+
+}
+
+/* ========================== third-section end ============================== */
+
+/* ========================== forth-section srt ============================== */
+#forth-section {
+    background: var(--forth-bg);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#forth-section .forth-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    justify-content: center;
+    align-items: center;
+}
+
+#forth-section .forth-flex .forth-texts {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    text-align: center;
+}
+
+#forth-section .forth-flex .forth-texts h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: var(--sada);
+}
+
+#forth-section .forth-flex .forth-texts p {
+    max-width: 470px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: var(--sada);
+
+
+}
+
+.forth-profile {
+    max-width: 489px;
+    display: flex;
+    flex-direction: column;
+    background: var(--sada);
+    padding: 30px 60px;
+    gap: 15px;
+}
+
+.forth-profile .profile-text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.forth-profile .profile-text .image {
+    position: relative;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+
+.forth-profile .profile-text .image .progile-pic img {
+    position: absolute;
+    left: -127px;
+}
+
+.profile-name {}
+
+.profile {
+    width: 1723px;
+    background: #252B42;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    gap: 92.3px;
+
+}
+
+.profile-name h5 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+
+}
+
+.profile-name h6 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+
+}
+
+
+.image ul {
+    display: flex;
+}
+
+.profile-text p {
+    max-width: 369px
+}
+
+
+/* ========================== forth-section end ============================== */
+
+#fifth-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#fifth-section .fifth-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+#fifth-section .fifth-flex .fifth-texts {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#fifth-section .fifth-flex .fifth-texts h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: var(--gray);
+}
+
+#fifth-section .fifth-flex .fifth-texts p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+    max-width: 470px;
+
+}
+
+.fifth-main {
+    display: flex;
+    gap: 30px;
+}
+
+.fifth-main .pura-profile {
+    padding: 30px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    GAP: 5PX;
+    flex-direction: column;
+    max-width: 143px;
+    box-shadow: 0 5px 15px rgba(0, 100, 255, 0.2);
+    transition: 0.3s;
+}
+
+.fifth-main .pura-profile:hover {
+    background: var(--gray);
+    box-shadow: 0 12px 28px rgba(0, 255, 128, 0.3);
+}
+
+.fifth-main .pura-profile:hover h6 {
+    color: #ffffff;
+}
+
+.fifth-main .pura-profile:hover h5 {
+    color: #fdf902;
+}
+
+.fifth-main .pura-profile:hover p {
+    color: #00f7ff;
+}
+
+.fifth-main .pura-profile .fifth-image {}
+
+.fifth-main .pura-profile .fifth-image img {}
+
+.fifth-main .pura-profile h6 {
+
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: var(--komla);
+
+}
+
+.fifth-main .pura-profile h5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: var(--gray);
+
+}
+
+.fifth-main .pura-profile p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    text-align: center;
+}
+
+/* ========================== fIFTH-section end ============================== */
+
+/* ========================== sixth-section srt ============================== */
+#sixth-section {
+    background: #252B42;
+    padding-top: 50px;
+    height: 807px;
+}
+
+#sixth-section .sixth-flex {
+    display: flex;
+    max-width: 1048px;
+    margin: 0 auto;
+    gap: 30px;
+    padding: 50px;
+    justify-content: center;
+}
+
+#sixth-section .sixth-flex .sixth-text {
+    max-width: 602px;
+}
+
+#sixth-section .sixth-flex .sixth-text h1 {
+
+    max-width: 476px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: var(--sada);
+
+}
+
+#sixth-section .sixth-flex .sixth-text p {
+
+    max-width: 455px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+
+
+#sixth-section .sixth-flex .maps img {}
+
+
+
+/* ========================== sixth-section end ============================== */
+
+
+/* ========================== section-from -section srt ============================== */
+
+#from-section {
+    padding-bottom: 100px;
+    position: relative;
+    bottom: 356px;
+    height: 300px;
+}
+
+#from-section .from-flex {
+    max-width: 1058px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background: white;
+}
+
+#from-section .from-flex .form-images {}
+
+#from-section .from-flex .form-images img {}
+
+
+#from-section .from-flex .from-texts {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 0px 50px;
+    align-items: center;
+}
+
+#from-section .from-flex .from-texts .f-texts {}
+
+#from-section .from-flex .from-texts .f-texts h1 {}
+
+
+#from-section .from-flex .from-texts .from {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+
+
+.name {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+
+.Email {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+
+
+.Department {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+
+
+.time {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+input {
+    outline: none;
+    height: 50px;
+    width: 545px;
+    padding-left: 20px;
+    border-radius: 5px;
+    background: #f9f9f9;
+    border: 1px solid rgba(63, 62, 62, 0.13);
+}
+
+input label {
+    padding-top: 5px;
+    outline: none;
+}
+
+::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+select {
+    box-sizing: border-box;
+    height: 50px;
+    background: #F9F9F9;
+    border: 1px solid rgba(63, 62, 62, 0.13);
+    border-radius: 5px;
+    outline: none;
+    padding-left: 20px;
+}
+
+select option {}
+
+button {
+    display: flex;
+    align-items: center;
+    padding: 15px 40px;
+    gap: 10px;
+    width: 588px;
+    justify-content: center;
+    height: 58px;
+    background: #FFA62B;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: white;
+    color: var(--gray);
+    box-shadow: 3px -3px 79px -13px rgba(0, 0, 0, 0.842);
+}
+
+button:focus {
+    color: var(--sada);
+    background: var(--forth-bg);
+}
+
+option {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+/* ========================== section-from -section end ============================== */
+
+/* ========================== last-section srt ============================== */
+
+
+.last-section {
+    background: var(--sada);
+}
+
+.last-section .last-flex {
+    background: var(--sada);
+    max-width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+    /* align-items: center; */
+    padding: 80px 56px;
+    justify-content: center;
+}
+
+.last-section .last-flex .twitter {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 25px;
+
+}
+
+.last-section .last-flex .twitter h1 {
+
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+
+}
+
+.last-section .last-flex .twitter p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.last-section .last-flex .twitter .l-image {
+    display: flex;
+    gap: 20px;
+}
+
+.last-section .last-flex .twitter .l-image img {}
+
+
+.last-section .last-flex .last-text-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.last-section .last-flex .last-text-grid .last-texts {
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+
+
+}
+
+.last-section .last-flex .last-text-grid .last-texts .heading {}
+
+.last-section .last-flex .last-text-grid .last-texts .heading h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+
+}
+
+
+.last-section .last-flex .last-text-grid .last-texts .pera {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.last-section .last-flex .last-text-grid .last-texts .pera p {
+    /* link */
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ========================== last-section end ============================== */
+
+footer {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+footer .footer-flex {
+    margin: 0 auto;
+    max-width: 368px;
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.2px;
+color: #737373;
+
+}

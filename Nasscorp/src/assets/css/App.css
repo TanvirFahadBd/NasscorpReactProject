@@ -1,0 +1,236 @@
+:root {
+    --sada: #fff;
+    --kala: #000;
+    --komla: #FFA62B;
+    --gray: #252B42;
+    --akashi: skyblue;
+    --forth-bg: #16697A;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background: #FAFAFA;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.conteiner {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+/* ======================== first nav edit ================================ */
+
+
+nav {}
+
+nav .first-flex {
+    max-width: 1322px;
+    margin: 0 auto;
+    padding: 36px 0px 36px 0px;
+    display: flex;
+    justify-content: space-around;
+    gap: 462px;
+    align-items: center;
+}
+
+nav .first-flex .logo {
+
+    width: 187px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+
+}
+
+nav .first-flex .logo a {
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    text-decoration: none;
+    color: var(--sada);
+    padding: 12px;
+    border-radius: 1000px;
+
+}
+
+
+nav .first-flex .main-menu {
+    display: flex;
+    align-items: center;
+    gap: 39px;
+}
+
+nav .first-flex .main-menu ul {
+    display: flex;
+    gap: 21px;
+}
+
+nav .first-flex .main-menu ul li {}
+
+nav .first-flex .main-menu ul li a {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: var(--sada);
+    padding: 12px;
+    background: var(--komla);
+    border-radius: 36px;
+    border: 2px solid var(--komla);
+    transition: 0.3s;
+
+}
+
+nav .first-flex .main-menu ul li a:hover {
+    background: transparent;
+    border: 2px solid var(--komla);
+
+}
+
+nav .first-flex .main-menu .first-icons {
+    display: flex;
+    gap: 18px;
+}
+
+nav .first-flex .main-menu .first-icons a {}
+
+nav .first-flex .main-menu .first-icons a img {}
+
+/* =========================== first section edit ============================ */
+
+
+#first-section {
+    position: relative;
+    top: -130px;
+    z-index: -1;
+    padding-bottom: 80px;
+}
+
+#first-section .second-flex {
+    background: url(../images/background.png);
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#first-section .second-flex .second-text {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 864px;
+    align-items: center;
+}
+
+#first-section .second-flex .second-text h1 {
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    padding-top: 200px;
+    color: var(--sada);
+}
+
+#first-section .second-flex .second-text p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: var(--sada);
+    max-width: 539px;
+
+}
+
+#first-section .second-flex .second-text .seconsatag {
+    display: flex;
+    gap: 10px;
+}
+
+#first-section .second-flex .second-text .seconsatag a {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 36px;
+    border: 2px solid var(--komla);
+    background-color: var(--komla);
+    border-radius: 36px;
+    transition: 0.3s;
+}
+
+#first-section .second-flex .second-text .seconsatag a:hover {
+    background-color: transparent;
+    border: 2px solid var(--sada);
+    color: #000;
+}
+
+.people {
+    background: white;
+    display: flex;
+    gap: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.people .peopleand-text {
+    padding: 20px 53px 20px 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.people .peopleand-text .people-icon {}
+
+.people .peopleand-text .people-icon img {}
+
+
+.people-txt {}
+
+.people-txt h5 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: var(--kala);
+}
+
+.people-txt p {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+/* ========================== first-section end ============================== */
