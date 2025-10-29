@@ -1,1 +1,1 @@
-live link https://class-14-homework.netlify.app/
+live link https://nasscorp-react-project-1mmd.vercel.app/
