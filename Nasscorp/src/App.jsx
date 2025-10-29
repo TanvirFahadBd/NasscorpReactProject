@@ -12,7 +12,7 @@ import FithSection from './assets/Components/FithSection'
 import SixthSection from './assets/Components/SixthSection'
 import FromSection from './assets/Components/FromSection'
 import LastSection from './assets/Components/LastSection'
-import foottter from './assets/Components/footer.jsx'
+import Footer from './assets/Components/footer.jsx'
 
 
 
@@ -28,7 +28,7 @@ function App() {
     <SixthSection/>
     <FromSection/>
     <LastSection/>
-    <foottter/>
+    <Footer/>
 
     
     </>
